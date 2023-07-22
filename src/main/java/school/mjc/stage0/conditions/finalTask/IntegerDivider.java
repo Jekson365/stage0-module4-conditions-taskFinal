@@ -8,9 +8,9 @@ public class IntegerDivider {
         if (divider == 0) {
             System.out.println("division by zero.");
         } else if (result * divider == dividend) {
-            System.out.println("can be divided completely.");
+            System.out.println("can be divided completely");
         } else {
-            System.out.println("cannot be divided completely.");
+            System.out.println("cannot be divided completely");
         }
     }
 }

@@ -13,7 +13,7 @@ public class DaysInMonth {
                         System.out.println(31);
                         break;
                     case 2:
-                        System.out.println(28);
+                        System.out.println(29);
                         break;
                     case 3:
                         System.out.println(31);
@@ -45,9 +45,6 @@ public class DaysInMonth {
                     case 12:
                         System.out.println(31);
                         break;
-                    default:
-                        System.out.println("invalid date");
-                        break;
                 }
             }
             }
@@ -58,7 +55,7 @@ public class DaysInMonth {
                 System.out.println(31);
                     break;
                 case 2:
-                    System.out.println(29);
+                    System.out.println(30);
                     break;
                 case 3:
                     System.out.println(31);
@@ -89,9 +86,6 @@ public class DaysInMonth {
                     break;
                 case 12:
                     System.out.println(31);
-                    break;
-                default:
-                    System.out.println("invalid date");
                     break;
             }
         }

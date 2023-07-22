@@ -11,7 +11,7 @@ public class CoordinatePane {
         } else if (x > 0 && y < 0) {
             System.out.println("fourth");
         } else if (x == 0 && y == 0) {
-            System.out.println("Origin (zero)");
+            System.out.println("zero");
         } else {
             System.out.println("Lies on an axis");
         }
