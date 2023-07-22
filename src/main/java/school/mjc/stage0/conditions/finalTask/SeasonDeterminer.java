@@ -1,6 +1,10 @@
 package school.mjc.stage0.conditions.finalTask;
 
 public class SeasonDeterminer {
+    public static void main(String[] args) {
+        TriangleSidesValidator t = new TriangleSidesValidator();
+        t.validate(1,2,6);
+    }
     public void tellTheSeason(int monthNumber) {
         switch (monthNumber) {
             case 12:
@@ -38,6 +42,9 @@ public class SeasonDeterminer {
                 break;
             case 11:
                 System.out.println("Autumn");
+                break;
+            default:
+                System.out.println("Wrong month number");
                 break;
         }
     }
